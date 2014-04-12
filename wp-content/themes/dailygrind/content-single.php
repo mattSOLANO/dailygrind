@@ -7,13 +7,6 @@
 <div class="postContent">
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<!-- <header class="entry-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-
-		<div class="entry-meta">
-			<?php dailygrind_posted_on(); ?>
-		</div> --><!-- .entry-meta -->
-	<!-- </header> --><!-- .entry-header -->
 
 	<h1 class="entry-title"><?php the_title(); ?></h1>
 
@@ -25,6 +18,15 @@
 		
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+
+<div class="socialBox">
+  <h4>Share this post:</h4>
+  <a href="https://twitter.com/intent/tweet?text=<?php the_title(); ?>&url=<?php the_permalink(); ?>"><i class="fa fa-twitter-square fa-2x"></i></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>"><i class="fa fa-facebook-square fa-2x"></i></a>
+  <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>"><i class="fa fa-google-plus-square fa-2x"></i></a>
+</div>
+
 
 <?php
 	// If comments are open or we have at least one comment, load up the comment template

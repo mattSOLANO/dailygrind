@@ -30,7 +30,6 @@
       <p class="logo"><a href="<?php echo home_url( '/' ); ?>"><i class="fa fa-chevron-left"></i>d<span>g</span><i class="fa fa-chevron-right"></i></a></p>
       
       <div class="searchBar">
-        <!-- <input type="text" placeholder="Search..."> -->
         <?php get_search_form(); ?>
 
         <i class="fa fa-search"></i>
@@ -38,5 +37,3 @@
 
     </div>
   </header>
-
-	<!-- <div id="content" class="site-content"> -->
