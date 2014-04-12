@@ -16,7 +16,7 @@ get_header(); ?>
 	<div class="intro">
     <div class="introInner">
       <h3><i class="fa fa-chevron-left"></i>daily<span>grind</span><i class="fa fa-chevron-right"></i></h3>
-      <p>The daily ups and downs of web development</p>
+      <p>Simply a blog about design and development</p>
       <div class="gears">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gear.svg" alt="gear1" class="gear1">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/gear.svg" alt="gear1" class="gear2">
