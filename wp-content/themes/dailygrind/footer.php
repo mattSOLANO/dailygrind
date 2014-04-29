@@ -13,7 +13,7 @@
     <div class="footerInner">
       <div class="tagCloud">
         <h3>Popular Tags</h3>
-        <?php wp_tag_cloud(''); ?>
+        <?php wp_tag_cloud('smallest=8&largest=8'); ?>
       </div>
     </div>
 
